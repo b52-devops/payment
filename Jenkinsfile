@@ -1,6 +1,5 @@
 @Library('robot-shared-library') _
 
-nodejs("payment")
-
-
-// call is the default function which will be called by default from any file.
+env.COMPONENT="payment"
+env.APP="python"
+python()
